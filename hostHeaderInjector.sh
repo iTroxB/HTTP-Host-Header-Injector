@@ -44,7 +44,7 @@ help_menu() {
     echo -e " ${yellow}Menu options:${end}"
     echo -e "    ${turquoise}-l <URL_list>${end},   ${gray}File with list of URLs.${end}"
     echo -e "    ${turquoise}-s${end},              ${gray}Silent mode (only shows vulnerable URLs).${end}"
-    echo -e "    ${turquoise}-o <output_file>${end},${gray}Save vulnerable URLs to this file (only the URL).${end}"
+    echo -e "    ${turquoise}-o <output_file>${end},${gray}Save vulnerable URLs to this file (only URLs).${end}"
     echo -e "    ${turquoise}-h${end},              ${gray}Show the help menu.${end}\n"
     echo -e " ${yellow}Examples:${end}"
     echo -e "    $0 -l <URL_list>"
