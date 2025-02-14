@@ -35,7 +35,7 @@ print_banner() {
     echo -e "  ${turquoise}HTTP Host Header Injector Scan ${end}"
     echo -e "  ${turquoise}Version 1.2${end}"
     echo -e "  ${blue}Made by iTrox${end}\n"
-    echo -e "  ${turquoise}hostHeaderInjector [-h] or [--help] to view help menu${end}\n"
+    echo -e "  ${turquoise}$0 [-h] or [--help] to view help menu${end}\n"
 }
 
 # Help menu
