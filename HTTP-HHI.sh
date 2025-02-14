@@ -33,7 +33,7 @@ print_banner() {
     echo -e " ${yellow} ██   ██ ██    ██      ██    ██        ██   ██ ██      ██   ██ ██   ██ ██      ██   ██     ██ ██  ██ ██ ██   ██ ██      ██         ██    ██    ██ ██   ██ ${end}"
     echo -e " ${yellow} ██   ██  ██████  ███████    ██        ██   ██ ███████ ██   ██ ██████  ███████ ██   ██     ██ ██   ████  █████  ███████  ██████    ██     ██████  ██   ██ ${end}\n"
     echo -e "  ${turquoise}HTTP Host Header Injector Scan ${end}"
-    echo -e "  ${turquoise}Version 1.1${end}"
+    echo -e "  ${turquoise}Version 1.2${end}"
     echo -e "  ${blue}Made by iTrox${end}\n"
     echo -e "  ${turquoise}hostHeaderInjector [-h] or [--help] to view help menu${end}\n"
 }
