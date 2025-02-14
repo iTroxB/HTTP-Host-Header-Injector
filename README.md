@@ -35,3 +35,15 @@ hostHeaderInjector -h
 ---
 
 ## Use tool
+
+- Running a scan on a list of URLs with output file generation for vulnerable URLs
+
+<div align="center">
+  <img src="/img/HHI-1.png" width=750px>
+</div>
+
+- Running a scan on a list of URLs in SILENT MODE
+
+<div align="center">
+  <img src="/img/HHI-2.png" width=750px>
+</div>
