@@ -58,7 +58,7 @@ injected_domain="www.itrox.site"
 output_file=""
 
 main() {
-    while getopts ":l:o:s:h" opt; do
+    while getopts ":l:o:sh" opt; do
         case ${opt} in
             l)
                 file=$OPTARG
