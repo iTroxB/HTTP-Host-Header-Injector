@@ -1,7 +1,7 @@
 # HTTP-Host-Header-Injector
 
 <div align="center">
-  <img src="/img/hhi-logo.png" width=750px>
+  <img src="/img/HHI-logo.png" width=750px>
 </div>
 
 HTTP Host Header Attack vulnerability scanner through header injection
@@ -29,7 +29,7 @@ hostHeaderInjector -h
 ```
 
 <div align="center">
-  <img src="/img/jwt-help.png" width=750px>
+  <img src="/img/HHI-help.png" width=750px>
 </div>
 
 ---
