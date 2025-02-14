@@ -4,7 +4,7 @@
   <img src="/img/HHI-logo.png" width=750px>
 </div>
 
-HTTP Host Header Attack vulnerability scanner through header injection
+CLI tool written in Bash that allows to perform HTTP query Host header injection tests, to analyze possible attack vectors in HTTP Host Header Injection web vulnerability.
 
 ---
 
