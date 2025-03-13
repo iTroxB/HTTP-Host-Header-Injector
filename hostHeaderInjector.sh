@@ -40,16 +40,16 @@ print_banner() {
 
 # Help menu
 help_menu() {
-    echo -e " \n${yellow}Usage: $0 [options] \n${end}"
+    echo -e " \n${yellow}Usage: hostHeaderInjector [options] \n${end}"
     echo -e " ${yellow}Menu options:${end}"
     echo -e "    ${turquoise}-l <URL_list>${end},   ${gray}File with list of URLs${end}"
     echo -e "    ${turquoise}-s${end},              ${gray}Silent mode (only shows vulnerable URLs)${end}"
     echo -e "    ${turquoise}-o <output_file>${end},${gray}Save vulnerable URLs to this file (only URLs)${end}"
     echo -e "    ${turquoise}-h${end},              ${gray}Show the help menu.${end}\n"
     echo -e " ${yellow}Examples:${end}"
-    echo -e "    $0 -l <URL_list>"
-    echo -e "    $0 -l <URL_list> -s"
-    echo -e "    $0 -l <URL_list> -o output.txt\n"
+    echo -e "    hostHeaderInjector -l <URL_list>"
+    echo -e "    hostHeaderInjector -l <URL_list> -s"
+    echo -e "    hostHeaderInjector -l <URL_list> -o output.txt\n"
 }
 
 silent_mode=false
