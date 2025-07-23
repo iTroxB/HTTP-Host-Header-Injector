@@ -52,6 +52,7 @@ end
 
 # Help func
 def help_menu
+    print_banner
     puts <<~HELP
     
     #{COLORS[:yellow]}Usage: #{File.basename($0)} [options]#{COLORS[:reset]}
@@ -126,7 +127,6 @@ end
 
 # Response analysis
 def check_response(response, domain, injected_header, original_protocol)
-    # Check redirects only for HTTP URLs
     if original_protocol == 'http' && (300..399).include?(response.code.to_i)
         location = response['location']
         if location&.include?(domain)
@@ -251,7 +251,7 @@ def main
         exit 1
     end
 
-    print_banner unless options[:silent]
+    print_banner if options[:silent] || !options[:silent]
 
     domain = "www.itrox.site"
     vulnerable_count = 0
