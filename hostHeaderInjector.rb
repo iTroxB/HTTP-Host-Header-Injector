@@ -43,7 +43,7 @@ def print_banner
     #{COLORS[:yellow]} ██   ██  ██████  ███████    ██        ██   ██ ███████ ██   ██ ██████  ███████ ██   ██     ██ ██   ████  █████  ███████  ██████    ██     ██████  ██   ██ #{COLORS[:reset]}
     
       #{COLORS[:turquoise]}Host Header Injection Scanner#{COLORS[:reset]}
-      #{COLORS[:turquoise]}Version 2.9#{COLORS[:reset]}
+      #{COLORS[:turquoise]}Version 2.0#{COLORS[:reset]}
       #{COLORS[:blue]}Made by iTrox#{COLORS[:reset]}
       #{COLORS[:gray]}Use -h for help#{COLORS[:reset]}
     BANNER
