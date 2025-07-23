@@ -4,7 +4,7 @@
   <img src="/img/HHI-logo.png" width=750px>
 </div>
 
-CLI tool written in Bash that allows to perform HTTP query Host header injection tests, to analyze possible attack vectors in HTTP Host Header Injection web vulnerability.
+CLI tool written in Ruby that allows to perform HTTP query Host header injection tests, to analyze possible attack vectors in HTTP Host Header Injection web vulnerability.
 
 ---
 
@@ -19,7 +19,7 @@ sudo git -C /opt clone https://github.com/iTroxB/HTTP-Host-Header-Injector.git
 * Create symbolic link to the script
 
 ```shell
-sudo ln -s /opt/HTTP-Host-Header-Injector/hostHeaderInjector.sh /usr/bin/hostHeaderInjector
+sudo ln -s /opt/HTTP-Host-Header-Injector/hostHeaderInjector.rb /usr/bin/hostHeaderInjector
 ```
 
 * To know the options and parameters of the tool run the help menu with the flag `-h`
