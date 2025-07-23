@@ -36,15 +36,15 @@ end
 def print_banner
     puts <<~BANNER
     
-    #{COLORS[:yellow]} ██   ██  ██████  ███████ ████████     ██   ██ ███████  █████  ██████  ███████ ██████
-    #{COLORS[:yellow]} ██   ██ ██    ██ ██         ██        ██   ██ ██      ██   ██ ██   ██ ██      ██   ██
-    #{COLORS[:yellow]} ███████ ██    ██ ███████    ██        ███████ █████   ███████ ██   ██ █████   ██████
-    #{COLORS[:yellow]} ██   ██ ██    ██      ██    ██        ██   ██ ██      ██   ██ ██   ██ ██      ██   ██
-    #{COLORS[:yellow]} ██   ██  ██████  ███████    ██        ██   ██ ███████ ██   ██ ██████  ███████ ██   ██#{COLORS[:reset]}
+    #{COLORS[:yellow]} ██   ██  ██████  ███████ ████████     ██   ██ ███████  █████  ██████  ███████ ██████      ██ ███    ██      ██ ███████  ██████ ████████  ██████  ██████
+    #{COLORS[:yellow]} ██   ██ ██    ██ ██         ██        ██   ██ ██      ██   ██ ██   ██ ██      ██   ██     ██ ████   ██      ██ ██      ██         ██    ██    ██ ██   ██
+    #{COLORS[:yellow]} ███████ ██    ██ ███████    ██        ███████ █████   ███████ ██   ██ █████   ██████      ██ ██ ██  ██      ██ █████   ██         ██    ██    ██ ██████
+    #{COLORS[:yellow]} ██   ██ ██    ██      ██    ██        ██   ██ ██      ██   ██ ██   ██ ██      ██   ██     ██ ██  ██ ██ ██   ██ ██      ██         ██    ██    ██ ██   ██
+    #{COLORS[:yellow]} ██   ██  ██████  ███████    ██        ██   ██ ███████ ██   ██ ██████  ███████ ██   ██     ██ ██   ████  █████  ███████  ██████    ██     ██████  ██   ██ #{COLORS[:reset]}
     
       #{COLORS[:turquoise]}Host Header Injection Scanner#{COLORS[:reset]}
       #{COLORS[:turquoise]}Version 2.9#{COLORS[:reset]}
-      #{COLORS[:blue]}By iTrox#{COLORS[:reset]}
+      #{COLORS[:blue]}Made by iTrox#{COLORS[:reset]}
       #{COLORS[:gray]}Use -h for help#{COLORS[:reset]}
     BANNER
     puts
